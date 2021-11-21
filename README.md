@@ -19,25 +19,25 @@ Au lancement de l'API, l'utilisateur se trouve sur une page d'accueil composée 
 
 ### Accueil ### 
 
-<img src="./capture/HOME.PNG" width="600"> \ 
+<img src="capture/HOME.PNG" width="600"> \ 
 
 ### BOX OFFICE ###
 
-<img src="./capture/BOX_OFFICE.PNG" width="600"> \
+<img src="capture/BOX_OFFICE.PNG" width="600"> \
 
 ### TOP 50 ###
 
-<img src="./capture/TOP_50.PNG" width="600"> \
+<img src="capture/TOP_50.PNG" width="600"> \
 
 ### FILM DES MEILLEURS REALISATEURS ###
 
-<img src="./capture/Meilleur_Realisateur.PNG" width="600"> \
+<img src="capture/Meilleur_Realisateur.PNG" width="600"> \
 
 Il est également possible de sélectionner le genre de film pour pouvoir ensuite consulter les meilleures références cinématographiques de ce dernier
 
 ### Theme ###
 
-<img src="./capture/Exemple_Theme.PNG" width="600"> \
+<img src="capture/Exemple_Theme.PNG" width="600"> \
 
 En cliquant sur l'affiche d'un film, on peut consulter sa fiche complète comprenant toutes les informations scrapées 
 
