@@ -49,4 +49,4 @@ En cliquant sur l'affiche d'un film, on peut consulter sa fiche complète compre
 
 Alors que nous comptions dans un premier temps, obtenir les données via notre api flask puis les afficher via React, nous n'avons malheureusement pas pu concevoir notre Front comme convenu pour une utilisation optimale des données. Nous n'avons réussi qu'à en implémenter un affichage Home. 
 
-<img src="./capture/accueil_React.PNG" width="600"> \
+<img src="./capture/accueil_React.png" width="600"> \
