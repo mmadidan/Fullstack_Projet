@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Fullstack_Projet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction ##
 
-## Available Scripts
+Les bases de données de films du type IMDB ou METACRITIC sont assez connus.
+Ils permettent à tout et chacun d'avoir le maximum d'information sur un film désiré.
+Notre projet a donc eu comme objectif de récupérer le maximum d'information de différents sites de base de données de films(IMDB, SENSCRITIQUE) pour ensuite construire des fiches de film les plus complètes possibles. Et puis, en comparant les différentes notes des différents sites, nous avons pu dresser des moyennes de films plus "complètes" pour guider au mieux l'utilisateur. Nous avons tenté de réaliser notre code sous python Flask (Backend) et React (Frontend), malheureusement, nous n'avions pas pu achever notre partie front sur ReactJs, c'est pourquoi le guide suivant ne s'appuie que sur les résultats obtenues à partir de Flask Python. 
 
-In the project directory, you can run:
+## Guide Utilisateur ##
 
-### `npm start`
+Le Lancement du dashboard
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Le lancement du dashboard se fait avec l'instruction : python main.py.
+(Parfois la page d'acceuil ne marche pas, il faut juste l'actualiser et le dashboard remarche, une erreur que nous n'avons pas réussi à résoudre et que nous ne comprenons pas)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Description du Dashboard ##
 
-### `npm test`
+Au lancement de l'API, l'utilisateur se trouve sur une page d'accueil composée d'une affiche de film choisie aléatoirement sur la base de donnée puis juste en dessous différente liste de films, une concernant les plus gros box office, une autre sur les meilleurs films entre 2013 et 2019 puis une dernière sur les films des meilleurs réalisateurs sur la même période
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Accueil ### 
 
-### `npm run build`
+<img src="./capture/HOME.PNG" width="600"> \ 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### BOX OFFICE ###
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="./capture/BOX_OFFICE.PNG" width="600"> \
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### TOP 50 ###
 
-### `npm run eject`
+<img src="./capture/TOP_50.PNG" width="600"> \
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### FILM DES MEILLEURS REALISATEURS ###
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="./capture/Meilleur_Realisateur.PNG" width="600"> \
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Il est également possible de sélectionner le genre de film pour pouvoir ensuite consulter les meilleures références cinématographiques de ce dernier
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Theme ###
 
-## Learn More
+<img src="./capture/Exemple_Theme.PNG" width="600"> \
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+En cliquant sur l'affiche d'un film, on peut consulter sa fiche complète comprenant toutes les informations scrapées 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Fiche Film ###
 
-### Code Splitting
+<img src="./capture/Fiche_Film.PNG" width="600"> \
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Difficulté avec React ##
 
-### Analyzing the Bundle Size
+Alors que nous comptions dans un premier temps, obtenir les données via notre api flask puis les afficher via React, nous n'avons malheureusement pas pu concevoir notre Front comme convenu pour une utilisation optimale des données. Nous n'avons réussi qu'à en implémenter un affichage Home. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="./capture/accueil_React.PNG" width="600"> \
