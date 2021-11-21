@@ -19,7 +19,7 @@ Au lancement de l'API, l'utilisateur se trouve sur une page d'accueil composée 
 
 ### Accueil ### 
 
-<img src="Fullstack_Projet/capture/HOME.PNG" width="600"> \ 
+<img src="/capture/HOME.png" width="600"> \ 
 
 ### BOX OFFICE ###
 
