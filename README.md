@@ -19,11 +19,11 @@ Au lancement de l'API, l'utilisateur se trouve sur une page d'accueil composée 
 
 ### Accueil ### 
 
-<img src="/capture/HOME.png" width="600"> \ 
+<img src="./capture/Home.png" width="600"> \ 
 
 ### BOX OFFICE ###
 
-<img src="capture/BOX_OFFICE.PNG" width="600"> \
+<img src="./capture/BOX_OFFICE.png" width="600"> \
 
 ### TOP 50 ###
 
